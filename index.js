@@ -1,3 +1,5 @@
+'use strict';
+
 // see http://linux.die.net/man/8/shutdown for details
 // we need the ability to spawn processes
 const spawn = require('child_process').spawn;
