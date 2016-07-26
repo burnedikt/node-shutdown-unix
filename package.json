@@ -1,0 +1,33 @@
+{
+  "name": "node-shutdown-windows",
+  "version": "1.0.0",
+  "description": "Shutdown and reboot your unix system from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burnedikt/node-shutdown-unix.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "shutdown",
+    "unix",
+    "reboot"
+  ],
+  "os" : [ "!win32" ],
+  "author": "Benedikt Reiser <benedikt.reiser@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burnedikt/node-shutdown-unix/issues"
+  },
+  "homepage": "https://github.com/burnedikt/node-shutdown-unix#readme",
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
